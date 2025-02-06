@@ -200,8 +200,8 @@ Transform:
   m_GameObject: {fileID: 253989157}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0073, y: -0.0239, z: 10}
-  m_LocalScale: {x: 4.3528433, y: 4.130465, z: 1}
+  m_LocalPosition: {x: -0.007300053, y: -0.023900298, z: 10}
+  m_LocalScale: {x: 4.3528433, y: 4.1304646, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1822854461}
@@ -8792,7 +8792,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -15837,7 +15837,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 8b82d7ad4a9616a4bbf49cd5b55425a3, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -15918,6 +15918,7 @@ Transform:
   m_Children:
   - {fileID: 1436688416}
   - {fileID: 923653839}
+  - {fileID: 1822854461}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1757590978
@@ -16025,8 +16026,8 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
-  orthographic: 1
+  field of view: 13
+  orthographic: 0
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
@@ -16052,12 +16053,12 @@ Transform:
   m_GameObject: {fileID: 1822854458}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.1, y: 0.3299997, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.02, y: -0.03, z: -10}
+  m_LocalScale: {x: 0.6715681, y: 0.65205175, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 253989159}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1561209095}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1822854462
 MonoBehaviour:
@@ -16107,7 +16108,6 @@ MonoBehaviour:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1822854461}
   - {fileID: 833040412}
   - {fileID: 1757590980}
   - {fileID: 1561209095}
